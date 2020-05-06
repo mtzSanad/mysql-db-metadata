@@ -4,12 +4,17 @@
   "description": "MySql database meta data (Schemas, Tables, Fields and FK Relations)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon index.js"
   },
   "keywords": [
     "mysql",
     "metadata"
   ],
   "author": "Moataz Sanad",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.3"
+  }
 }
